@@ -1,0 +1,55 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+  gap: 2vw; /* Space between elements */
+  padding: 2vw;
+  box-sizing: border-box;
+}
+
+.revenueCard {
+  width: 100%; /* Full width */
+  max-width: 96vw; /* Slight padding from edges */
+  height: 20rem;
+  background-color: white;
+  border-radius: 0.5em;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.cardContainer {
+  display: flex;
+  width: 100%;
+  max-width: 96vw;
+  gap: 2vw; /* Space between two cards */
+}
+
+.dataCard {
+  background-color: #efefef;
+  border-radius: 0.5em;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1em;
+  width: calc(50% - 1vw); /* Each card takes half of the width, accounting for the gap */
+  height: 25rem;
+}
+.doughnutContainer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 280px;
+}
+.LineContainer{
+  width: 100vm;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.barContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 280px;
+}
