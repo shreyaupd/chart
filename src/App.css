@@ -32,7 +32,7 @@
   border-radius: 0.5em;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 1em;
-  width: calc(50% - 1vw); /* Each card takes half of the width, accounting for the gap */
+  flex: 1; /* Each card takes half of the width, accounting for the gap */
   height: 25rem;
 }
 .doughnutContainer{
