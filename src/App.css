@@ -41,6 +41,10 @@
    justify-content: center;
    height: 280px;
 }
+.doughnutContainer canvas {
+  max-width: 350px;
+  max-height: 300px; 
+}
 .LineContainer{
   width: 100vm;
    display: flex;
